@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/rest.rpy", line 26: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Eat \n {size=-8} +sta -money"
+                                  ^
+
+Ren'Py Version: Ren'Py 6.18.3.761

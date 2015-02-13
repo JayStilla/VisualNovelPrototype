@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="amb_classroom_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="32.1047242943" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="Length" value="000000054672"/>
+		<tag name="ARTIST" value="Recorded by RecForge          "/>
+		<tag name="TITLE" value="                              "/>
+		<tag name="YEAR" value="    "/>
+		<tag name="ALBUM" value="                              "/>
+		<tag name="COMMENTS" value="http://www.facebook.com/RecFor"/>
+	</tags>
+	<wavetrack name="253761__caculo__very-noisy-kids-in-classroom" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.177828" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1199076">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000de5.au" len="194740" min="-0.997644" max="1.005797" rms="0.229456"/>
+				</waveblock>
+				<waveblock start="194740">
+					<simpleblockfile filename="e0000a5e.au" len="194741" min="-0.991713" max="0.978373" rms="0.192944"/>
+				</waveblock>
+				<waveblock start="389481">
+					<simpleblockfile filename="e0000983.au" len="262144" min="-0.983226" max="0.986614" rms="0.209596"/>
+				</waveblock>
+				<waveblock start="651625">
+					<simpleblockfile filename="e0000ea7.au" len="262144" min="-0.977692" max="1.009986" rms="0.236588"/>
+				</waveblock>
+				<waveblock start="913769">
+					<simpleblockfile filename="e00002da.au" len="142653" min="-0.948606" max="1.004519" rms="0.145688"/>
+				</waveblock>
+				<waveblock start="1056422">
+					<simpleblockfile filename="e0000eab.au" len="142654" min="-0.507773" max="0.522334" rms="0.062978"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="253761__caculo__very-noisy-kids-in-classroom" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.177828" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1199076">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000a10.au" len="194740" min="-0.997644" max="1.005797" rms="0.229456"/>
+				</waveblock>
+				<waveblock start="194740">
+					<simpleblockfile filename="e0000305.au" len="194741" min="-0.991713" max="0.978373" rms="0.192944"/>
+				</waveblock>
+				<waveblock start="389481">
+					<simpleblockfile filename="e0000dab.au" len="262144" min="-0.983226" max="0.986614" rms="0.209596"/>
+				</waveblock>
+				<waveblock start="651625">
+					<simpleblockfile filename="e00006ef.au" len="262144" min="-0.977692" max="1.009986" rms="0.236588"/>
+				</waveblock>
+				<waveblock start="913769">
+					<simpleblockfile filename="e0000e32.au" len="142653" min="-0.948606" max="1.004519" rms="0.145688"/>
+				</waveblock>
+				<waveblock start="1056422">
+					<simpleblockfile filename="e00003d9.au" len="142654" min="-0.507773" max="0.522334" rms="0.062978"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="253761__caculo__very-noisy-kids-in-classroom" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.177828" pan="0.0">
+		<waveclip offset="19.93477083">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="242207">
+				<waveblock start="0">
+					<simpleblockfile filename="e00001d7.au" len="184772" min="-0.611932" max="0.633261" rms="0.09137"/>
+				</waveblock>
+				<waveblock start="184772">
+					<simpleblockfile filename="e0000ae8.au" len="57435" min="-0.652494" max="0.677429" rms="0.146601"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="253761__caculo__very-noisy-kids-in-classroom" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.177828" pan="0.0">
+		<waveclip offset="19.93477083">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="242207">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f5e.au" len="184772" min="-0.611932" max="0.633261" rms="0.09137"/>
+				</waveblock>
+				<waveblock start="184772">
+					<simpleblockfile filename="e0000a47.au" len="57435" min="-0.652494" max="0.677429" rms="0.146601"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
