@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/utilities.rpy", line 158: invalid syntax
+                renpy.music.play(switch, channel='amb' fadein=0.25, fadeout=0.25)
+                                                             ^
+    
+
+Ren'Py Version: Ren'Py 6.18.3.761

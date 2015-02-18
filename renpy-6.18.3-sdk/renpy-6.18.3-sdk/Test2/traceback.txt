@@ -1,0 +1,35 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/map.rpy", line 14, in script
+    $ updateMusic("map")
+  File "game/map.rpy", line 14, in <module>
+    $ updateMusic("map")
+  File "game/utilities.rpy", line 144, in updateMusic
+    if renpy.music.is_playing(channel='amb'):
+Exception: Audio channel 'amb' is unknown.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/map.rpy", line 14, in script
+    $ updateMusic("map")
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/map.rpy", line 14, in <module>
+    $ updateMusic("map")
+  File "game/utilities.rpy", line 144, in updateMusic
+    if renpy.music.is_playing(channel='amb'):
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\audio\music.py", line 312, in is_playing
+    return (get_playing(channel=channel) is not None)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\audio\music.py", line 296, in get_playing
+    c = renpy.audio.audio.get_channel(channel)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\audio\audio.py", line 758, in get_channel
+    raise Exception("Audio channel %r is unknown." % name)
+Exception: Audio channel 'amb' is unknown.
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.18.3.761
+Test2 0.0

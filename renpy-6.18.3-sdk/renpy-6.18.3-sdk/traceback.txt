@@ -1,0 +1,44 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/000statements.rpy", line 457, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+WindowsError: [Error 183] Cannot create a file when that file already exists
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "launcher/game/front_page.rpyc", line 255, in script
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\ast.py", line 1635, in execute
+    self.call("execute")
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\ast.py", line 1653, in call
+    renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\statements.py", line 144, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 457, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\exports.py", line 2311, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\ui.py", line 247, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\display\core.py", line 2149, in interact
+    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\display\core.py", line 2611, in interact_core
+    renpy.persistent.check_update()
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\persistent.py", line 322, in check_update
+    update()
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\persistent.py", line 359, in update
+    save()
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\persistent.py", line 369, in save
+    renpy.loadsave.location.save_persistent(data)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\savelocation.py", line 445, in save_persistent
+    l.save_persistent(data)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\savelocation.py", line 316, in save_persistent
+    safe_rename(fn_new, fn)
+  File "C:\Users\Administrator.STUDIOA-16\Dropbox\renpy-6.18.3-sdk\renpy-6.18.3-sdk\renpy\loadsave.py", line 193, in safe_rename
+    os.rename(old, new)
+WindowsError: [Error 183] Cannot create a file when that file already exists
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.18.3.761
+Ren'Py Launcher 6.18.3.761
