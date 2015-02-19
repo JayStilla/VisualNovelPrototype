@@ -1,4 +1,4 @@
-Thu Feb 12 17:08:02 2015
+Wed Feb 18 17:12:19 2015
 Windows-7-6.1.7601-SP1
 Ren'Py 6.18.3.761
 Test2 0.0
@@ -285,8 +285,18 @@ Texture testing:
 Performance test:
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.016000 seconds.
-- Frame drawn at 0.030000 seconds.
+- Frame drawn at 0.019000 seconds.
+- Frame drawn at 0.034000 seconds.
 - Frame drawn at 0.044000 seconds.
-- Frame drawn at 0.061000 seconds.
-- 0.061000 seconds to render 5 frames.
+- Frame drawn at 0.066000 seconds.
+- 0.066000 seconds to render 5 frames.
+Traceback (most recent call last):
+  File "C:\Users\jayce.jastillana\Documents\GitHub\VisualNovelPrototype\renpy-6.18.3-sdk\renpy\execution.py", line 294, in run
+    node.execute()
+  File "C:\Users\jayce.jastillana\Documents\GitHub\VisualNovelPrototype\renpy-6.18.3-sdk\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\jayce.jastillana\Documents\GitHub\VisualNovelPrototype\renpy-6.18.3-sdk\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/dorm.rpy", line 192, in <module>
+    $ updateMusic("dorm")
+NameError: name 'updateMusic' is not defined

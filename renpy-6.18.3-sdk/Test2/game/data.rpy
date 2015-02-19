@@ -59,6 +59,7 @@ image bg classroom =    "images/classroom.jpg"
 image bg park =         "images/park.jpg"
 image bg rest =         "images/restaurant.jpg"
 image bg school =       "images/classroom.jpg"
+image bg teacher =      "images/teacheroffice.jpg"
 
 
 # SOUNDS
